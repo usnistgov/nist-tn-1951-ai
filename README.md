@@ -26,13 +26,14 @@ Additional details on the repository structure and usage will be provided as the
 
 ## Dependencies
 
+- GIthub repo [IndustrialWirelessAnalysis](https://github.com/rcandell/IndustrialWirelessAnalysis)
 - Python (for AI model development and data processing)
 - Additional dependencies will be specified as the repository is updated.
 
 ## Contact Information
 
 **Main Author**: Rick Candell, NIST  
-For inquiries, visit [https://www.nist.gov/programs-projects/wireless-systems-industrial-environments](https://www.nist.gov/programs-projects/wireless-systems-industrial-environments).
+For inquiries, visit [NIST Industrial Wireless Systems](https://www.nist.gov/programs-projects/industrial-wireless-systems).
 
 ## License
 
