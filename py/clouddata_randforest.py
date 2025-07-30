@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 25 11:59:03 2025
-
-@author: rnc4
-"""
+# NIST-TN-1951-AI: clouddata_randforest.py
+# Description: Python script for applying random forest-based AI techniques to analyze NIST 1951 industrial
+#              wireless propagation measurements in a cloud-based environment. This script handles data
+#              preprocessing, random forest model training, and evaluation for industrial wireless scenarios.
+# Author: Rick Candell, NIST
+# Contact: For inquiries, visit https://www.nist.gov/programs-projects/wireless-systems-industrial-environments
+# Dependencies: Requires code from https://github.com/rcandell/IndustrialWirelessAnalysis
+# Citation: If you use or extend this code, please cite https://doi.org/10.18434/T4359D
+# Disclaimer: Certain tools, equipment, or materials identified do not imply NIST endorsement.
+# Created: July 2025
+# License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
 
 # Import necessary libraries for data processing, modeling, and visualization
 import joblib
@@ -146,6 +152,7 @@ print(importances.sort_values('Importance', ascending=False))
 # Visualizing results
 # Create a scatter plot to compare actual vs. predicted values
 plt.scatter(y_test, y_pred, alpha=0.5)
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', lw=2)
 plt.xlabel('Actual ' + yName)
 plt.ylabel('Predicted ' + yName)
 plt.title('Actual vs Predicted ' + yName + ' Using Random Forest')

@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 25 11:59:03 2025
-
-@author: rnc4
-"""
+# NIST-TN-1951-AI: clouddata_mlregressor.py
+# Description: Python script for applying machine learning regression techniques to analyze NIST 1951 industrial
+#              wireless propagation measurements in a cloud-based environment. This script handles data
+#              preprocessing, training of machine learning regressors, and evaluation for industrial wireless scenarios.
+# Author: Rick Candell, NIST
+# Contact: For inquiries, visit https://www.nist.gov/programs-projects/wireless-systems-industrial-environments
+# Dependencies: Requires code from https://github.com/rcandell/IndustrialWirelessAnalysis
+# Citation: If you use or extend this code, please cite https://doi.org/10.18434/T4359D
+# Disclaimer: Certain tools, equipment, or materials identified do not imply NIST endorsement.
+# Created: July 2025
+# License: GNU General Public License, Version 3, 29 June 2007
 
 # Import necessary libraries for data processing, modeling, and visualization
 import pandas as pd
