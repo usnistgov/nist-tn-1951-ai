@@ -1,4 +1,15 @@
 function doallMobile()
+% NIST-TN-1951-AI: doallMobile.m
+% Description: Main script for processing and analyzing NIST 1951 industrial wireless propagation measurements
+%              using AI-driven techniques. This script orchestrates the analysis pipeline, integrating
+%              data preprocessing, AI model application, and result generation for industrial wireless scenarios.
+% Author: Rick Candell, NIST
+% Contact: For inquiries, visit https://www.nist.gov/programs-projects/wireless-systems-industrial-environments
+% Dependencies: Requires code from https://github.com/rcandell/IndustrialWirelessAnalysis
+% Citation: If you use or extend this code, please cite https://doi.org/10.18434/T4359D
+% Disclaimer: Certain tools, equipment, or materials identified do not imply NIST endorsement.
+% Created: July 2025
+% License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
 
 MANIFEST_PATH = './manifest.xlsx';
 TEST=false;
